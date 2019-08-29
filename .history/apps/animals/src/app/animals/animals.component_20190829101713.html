@@ -1,0 +1,14 @@
+<div class="main">
+  <ten-ngrx-animal-list
+  class="list"
+  (selectAnimal)="selectAnimal($event)"
+  (deleteAnimal)="deleteAnimal($event)"
+  [animals]="animals$ | async"
+  ></ten-ngrx-animal-list>
+
+  <ten-ngrx-animal-details
+  class="details"
+  [animalForm]="form"
+  [selectedAnimal]="selectedAnimal$ | async"
+  ></ten-ngrx-animal-details>
+</div>

@@ -1,0 +1,8 @@
+<div class="animal-list-component">
+  <mat-card class="list-item pointer" *ngFor="let animal of animals">
+    <mat-card-title>
+      <span (click)="select(animal)">{{animal.name}}</span>
+      <button mat-icon-button (click)="remove(animal)"><mat-icon>delete</mat-icon></button>
+    </mat-card-title>
+  </mat-card>
+</div>

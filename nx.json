@@ -13,6 +13,15 @@
     },
     "animals": {
       "tags": []
+    },
+    "core-data": {
+      "tags": []
+    },
+    "core-state": {
+      "tags": []
+    },
+    "material": {
+      "tags": []
     }
   }
 }

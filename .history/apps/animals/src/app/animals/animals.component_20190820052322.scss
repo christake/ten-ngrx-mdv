@@ -1,0 +1,17 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(1fr, 4);
+  grid-gap: 10px;
+}
+
+.details {
+  align-self: center;
+  grid-column: 1/2;
+  grid-row: 2;
+}
+
+.list {
+  align-self: center;
+  grid-column: 3/4;
+  grid-row: 2;
+}

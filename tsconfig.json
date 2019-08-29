@@ -15,7 +15,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ten-ngrx/core-data": ["libs/core-data/src/index.ts"],
+      "@ten-ngrx/core-state": ["libs/core-state/src/index.ts"],
+      "@ten-ngrx/material": ["libs/material/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

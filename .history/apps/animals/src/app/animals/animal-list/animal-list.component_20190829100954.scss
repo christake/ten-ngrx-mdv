@@ -1,0 +1,10 @@
+.animal-list-component {
+  .list-item {
+    margin: 10px;
+  }
+
+  mat-card-title .mat-card-title {
+    display: flex;
+    justify-content: space-between;
+  }
+}

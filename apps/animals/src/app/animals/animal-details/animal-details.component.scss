@@ -1,0 +1,11 @@
+.animal-details-component{
+  .mat-form-field {
+    width: 100%;
+  }
+
+  .mat-card-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+  }
+}

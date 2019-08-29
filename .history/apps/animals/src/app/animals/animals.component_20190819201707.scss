@@ -1,0 +1,12 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(1fr, 4);
+}
+
+.details {
+  grid-column: 1/2;
+}
+
+.list {
+  grid-column: 3/4;
+}

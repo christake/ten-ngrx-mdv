@@ -1,0 +1,19 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: lightgray;
+  height: 100%;
+  margin: 100px;
+}
+
+mat-card {
+  border-radius: 0px !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
